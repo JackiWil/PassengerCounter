@@ -1,0 +1,118 @@
+body {
+    background-image: url("pexels-laura-tancredi-7078222.jpg");
+    background-size: cover;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center; */
+}
+
+/* body::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(96, 151, 223, 0.325);
+    height: 100vh;
+    margin: auto;
+} */
+
+.container {
+    background:rgba(226, 229, 234, 0.752);
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+heading{
+position: relative;
+font-size: 3rem;
+color: #1c1cc0;
+color: transparent;
+   text-shadow: 0 0 5px rgba(3, 5, 34, 0.7);
+}
+
+
+/* #img {
+    opacity: 0.5;
+  } */
+  
+  /* img:hover {
+    opacity: 1.0;
+  } */
+
+
+
+
+h1 {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #0c0420;
+}
+
+h2 {
+    position: relative;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #030719;
+    
+}
+
+button {
+    position: relative;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+   
+    background: darkred;
+}
+
+
+#decrement-btn{
+  
+    background: rgb(0, 44, 139);
+
+}
+
+
+#save-btn {
+    background: darkgreen;
+}
+
+#save-el{
+    position: relative;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color:     
+;
+
+}
+
+#clear-btn{
+    color: black;
+    background: rgba(55, 83, 175, 0.563);
+    
+
+}
+
+#finalButtons{
+
+    padding-top: 70px;
+}
